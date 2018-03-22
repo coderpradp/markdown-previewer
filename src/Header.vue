@@ -1,10 +1,8 @@
 <template>
-  <div>
-    <header>
-      <h1>A Vue.js Markdown Previewer</h1>
-      <hr>
-    </header>
-  </div>
+  <header>
+    <h1>A Vue.js Markdown Previewer</h1>
+    <hr>
+  </header>
 </template>
 
 <script>
