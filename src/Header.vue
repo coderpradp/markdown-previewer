@@ -1,7 +1,6 @@
 <template>
   <header>
-    <h1>A Vue.js Markdown Previewer</h1>
-    <hr>
+    <h2>A Vue.js Markdown Previewer</h2>
   </header>
 </template>
 
@@ -9,6 +8,10 @@
 export default {}
 </script>
 
-<style>
-
+<style scoped>
+header {
+  padding-bottom: 10px;
+  color: #32673f;
+  text-align: center;
+}
 </style>
