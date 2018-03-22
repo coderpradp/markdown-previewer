@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="container">
     <app-header></app-header>
     <app-markdown></app-markdown>
     <app-footer></app-footer>
@@ -26,9 +26,24 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+body {
   font-family: 'Open Sans', sans-serif;
 }
 a {
   text-decoration: none;
+}
+#container {
+  min-height: 100%;
+  position: relative;
 }
 </style>

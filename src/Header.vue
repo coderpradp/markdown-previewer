@@ -10,7 +10,7 @@ export default {}
 
 <style scoped>
 header {
-  padding-bottom: 10px;
+  padding: 20px 0;
   color: #32673f;
   text-align: center;
 }

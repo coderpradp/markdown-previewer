@@ -1,5 +1,5 @@
 <template>
-  <div id="wrapper">
+  <div id="content">
     <div class="editor">
       <h3 class="title">Markdown Editor</h3>
       <textarea rows="20" v-model="markdownText"></textarea>
@@ -49,14 +49,14 @@ Itemized lists look like:
 </script>
 
 <style scoped>
-#wrapper {
+#content {
   width: 90%;
   margin: 0 auto;
   padding-bottom: 60px;
 }
 .editor,
 .preview {
-  flex-basis: 45%;
+  flex-basis: 46%;
   margin-bottom: 40px;
 }
 .editor {
@@ -67,13 +67,14 @@ Itemized lists look like:
   flex: 1;
 }
 .title {
+  padding: 10px 0;
   text-align: center;
   margin-bottom: 30px;
   color: #32673f;
 }
 
 @media (min-width: 900px) {
-  #wrapper {
+  #content {
     display: flex;
     justify-content: space-between;
   }
