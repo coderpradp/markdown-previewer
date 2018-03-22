@@ -1,10 +1,10 @@
-# markdown-previewer-vuejs
+# markdown-previewer
 
 > A markdown previewer built in Vue.js
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
