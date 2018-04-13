@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "marked": "^0.3.17",
-    "vue": "^2.5.11"
+    "vue": "^2.5.11",
+    "vue-gh-pages": "^1.12.0"
   },
   "browserslist": [
     "> 1%",
